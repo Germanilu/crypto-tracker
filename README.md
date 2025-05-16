@@ -1,4 +1,4 @@
-## 💰 CryptoQuote  
+## 💰 CryptoTracker  
 A modern cryptocurrency price checker built with React + TypeScript + Vite.  
 This app allows users to select a fiat currency and a cryptocurrency to retrieve real-time price data using the CryptoCompare API via Axios.
 
@@ -28,8 +28,8 @@ This app allows users to select a fiat currency and a cryptocurrency to retrieve
 Clone the repository and run the following commands:
 
 ```bash
-git clone https://github.com/your-username/cryptoquote.git
-cd cryptoquote
+git clone https://github.com/your-username/crypto-tracker.git
+cd crypto-tracker
 npm install
 npm run dev
 ```
