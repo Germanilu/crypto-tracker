@@ -1,54 +1,37 @@
-# React + TypeScript + Vite
+## 💰 CryptoQuote  
+A modern cryptocurrency price checker built with React + TypeScript + Vite.  
+This app allows users to select a fiat currency and a cryptocurrency to retrieve real-time price data using the CryptoCompare API via Axios.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Features  
+- Select a fiat currency and a cryptocurrency to quote.  
+- Fetches real-time market data including:
+  - Current price.
+  - Daily high and low values.
+  - 24h price change percentage.
+  - Last update timestamp.  
+- Form & type validation with **Zod**.  
+- Global state management with **Zustand**.  
+- Responsive and clean user interface.  
+- Uses React hooks and Axios for data fetching.
 
-Currently, two official plugins are available:
+## 🧱 Tech Stack  
+⚛️ React  
+⌨️ TypeScript  
+⚡ Vite  
+🧠 Zustand  
+🛡 Zod  
+🔌 CryptoCompare API  
+📦 Axios  
+🔁 React Hooks (useState, useEffect, useMemo)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📦 Installation  
+Clone the repository and run the following commands:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+git clone https://github.com/your-username/cryptoquote.git
+cd cryptoquote
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Luciano Germani
